@@ -65,21 +65,23 @@
 
 ## Visuals (Görseller)
 
-Here are some screenshots of the full functionality of the project, including dynamic video backgrounds:  
+Here are some screenshots of the full functionality of the project, including dynamic video backgrounds:
+**Türkçe**: Projenin tüm işlevselliğini, dinamik video arka planlarını içeren ekran görüntüleri:  
 
 ### Screenshot 1:
 ![Screenshot 1](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.37.18.png)
 
 ### Screenshot 2:
-![Screenshot 2](ScreenShots/Ekran Resmi 2024-12-07 16.37.18.png)
+![Screenshot 2](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.37.05.png)
 
-**Türkçe**: Projenin tüm işlevselliğini, dinamik video arka planlarını içeren ekran görüntüleri:  
+### Screenshot 3:
+![Screenshot 3](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.37.45.png)
 
-### Ekran Görüntüsü 1:
-![Ekran Görüntüsü 1](link-to-image-1)
+### Screenshot 4:
+![Screenshot 4](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.38.57.png)
 
-### Ekran Görüntüsü 2:
-![Ekran Görüntüsü 2](link-to-image-2)
+### Screenshot 5:
+![Screenshot 5](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.39.34.png)
 
 ---
 
