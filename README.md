@@ -68,10 +68,10 @@
 Here are some screenshots of the full functionality of the project, including dynamic video backgrounds:  
 
 ### Screenshot 1:
-![Screenshot 1](link-to-image-1)
+![Screenshot 1](ScreenShots/Ekran Resmi 2024-12-07 16.37.05.png)
 
 ### Screenshot 2:
-![Screenshot 2](link-to-image-2)
+![Screenshot 2](ScreenShots/Ekran Resmi 2024-12-07 16.37.18.png)
 
 **Türkçe**: Projenin tüm işlevselliğini, dinamik video arka planlarını içeren ekran görüntüleri:  
 
