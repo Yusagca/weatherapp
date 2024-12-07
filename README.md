@@ -68,7 +68,7 @@
 Here are some screenshots of the full functionality of the project, including dynamic video backgrounds:  
 
 ### Screenshot 1:
-![Screenshot 1](ScreenShots/Ekran Resmi 2024-12-07 16.37.05.png)
+![Screenshot 1](https://github.com/Yusagca/weatherapp/blob/main/ScreenShots/Ekran%20Resmi%202024-12-07%2016.37.18.png)
 
 ### Screenshot 2:
 ![Screenshot 2](ScreenShots/Ekran Resmi 2024-12-07 16.37.18.png)
