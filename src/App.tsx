@@ -23,26 +23,26 @@ function App() {
   // Hava durumuna göre arka plan videosunu belirleme fonksiyonu
 const getBackgroundVideo = (code: number) => {
   if (code === 0) {
-    return 'dist/backgrounds/clear.mov'; // Açık Hava
+    return 'backgrounds/clear.mov'; // Açık Hava
   } else if ((code >= 1 && code <= 3)) {
-    return 'dist/backgrounds/cloudy.mov'; // Sisli veya Bulutlu
+    return 'backgrounds/cloudy.mov'; // Sisli veya Bulutlu
   }else if ((code >= 45 && code <= 48)) {
-    return 'dist/backgrounds/fog.mov'; // Sisli veya Bulutlu
+    return 'backgrounds/fog.mov'; // Sisli veya Bulutlu
   }
    else if (
     (code >= 51 && code <= 67) || // Hafif-Orta Şiddetli Yağmur
     (code >= 80 && code <= 82) || // SağanakYağmur
     (code === 95)                 // Hafif Fırtına
   ) {
-    return 'dist/backgrounds/rain.mov'; // Yağmurlu
+    return 'backgrounds/rain.mov'; // Yağmurlu
   } else if (
     (code >= 71 && code <= 77) || // Hafif-Orta Şiddetli Kar Yağışı
     (code >= 85 && code <= 86) || // Kar Sağanağı
     (code >= 96 && code <= 99)    // Şiddetli Fırtına ve Kar
   ) {
-    return 'dist/backgrounds/snow.mov'; // Karlı
+    return 'backgrounds/snow.mov'; // Karlı
   } else {
-    return 'dist/backgrounds/clear.mov'; // Varsayılan
+    return 'backgrounds/clear.mov'; // Varsayılan
   }
 };
 
