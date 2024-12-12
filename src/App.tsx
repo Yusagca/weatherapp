@@ -97,7 +97,7 @@ const getBackgroundVideo = (code: number) => {
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full h-full object-cover opacity-60"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-60 pointer-events-none"
       >
         <source src={backgroundVideo} type="video/mp4" />
       </video>
