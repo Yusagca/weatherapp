@@ -116,22 +116,7 @@ function App() {
               Home
             </a>
           </li>
-          <li>
-            <a
-              href="#forecast"
-              className="text-white text-lg hover:text-sky-300 transition duration-200"
-            >
-              Forecast
-            </a>
-          </li>
-          <li>
-            <a
-              href="#about"
-              className="text-white text-lg hover:text-sky-300 transition duration-200"
-            >
-              About
-            </a>
-          </li>
+          
         </ul>
       </nav>
 
