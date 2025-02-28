@@ -131,7 +131,7 @@ function App() {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
 
-      <div className="flex justify-center items-center h-screen w-full bg-gradient-to-b from-blue-500 to-sky-500">
+      <div className="flex justify-center items-center h-screen w-full bg-gradient-to-b bg-opacity-40 from-blue-500 to-sky-500">
         <div className="relative z-10 w-full max-w-md md:max-w-lg lg:max-w-2xl bg-gradient-to-r from-sky-500 to-blue-600 shadow-xl rounded-2xl p-6 text-white">
           <div className="flex flex-col items-center space-y-6">
             {/* Arama Kutusu */}
