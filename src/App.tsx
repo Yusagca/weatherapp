@@ -105,7 +105,7 @@ function App() {
         <div className="flex items-center space-x-2">
           {/* Logo */}
           <TbLocationFilled className="text-3xl" />
-          <h1 className="text-xl font-bold tracking-wide">Weather App</h1>
+          <h1 className="text-xl font-bold tracking-wide">Weather by Yusa</h1>
         </div>
         <ul className="flex space-x-6">
           <li>
