@@ -73,20 +73,7 @@ HaloWeather sadece bir hava durumu uygulaması değil, senin kişisel iklim keş
 
 ---
 
-## 🧑‍💻 Development & Deployment
-
-```bash
-# Install dependencies
-npm install
-
-# Start local dev server with LAN sharing
-npm run dev -- --host
-
-# Deploy to Vercel in one command
-vercel --prod
-```
-
-> 🌐 Public demo: [haloweather.vercel.app](https://haloweather.vercel.app)
+> 🌐 Public demo: [Click for my personal website](https://www.yusagca.com/#/projects)
 
 ---
 
@@ -100,26 +87,13 @@ vercel --prod
 
 ---
 
-## 📦 Requirements
-
-- Node.js >= 18
-- Internet access for API requests
-- Modern browser with SVG support
-- Optional: Vercel account for 1-click deployment
-
----
 
 ## 🤝 Contact
 
 - **GitHub:** [Yusagca](https://github.com/Yusagca)
 - **LinkedIn:** [Halil Yuşa Ağca](https://www.linkedin.com/in/halil-yusa-a%C4%9Fca-26197b1b6/)
 - **Mail:** hyagca@hotmail.com
+- **My Website** www.yusagca.com
 
 ---
 
-## 🔥 Final Words
-
-HaloWeather is not just technically solid—it’s emotionally intuitive.  
-From hovering over countries to watching a red marker pulse on a state you love, it’s a delightful experience from start to forecast.
-
-**Try it. Feel it. Ship it.** 🚢☁️
