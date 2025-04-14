@@ -1,73 +1,124 @@
-# Weather App 🌤️ / Hava Durumu Uygulaması 🌤️
+
+# HaloWeather ☁️🌤️🌎
+
+> A modern, interactive and multilingual weather app with map-based search experience powered by Open-Meteo and React.
 
 ---
 
-## Description (Açıklama)
+## 🌐 Description / Açıklama
 
-**English:**  
-The Weather App is a React-based application that provides real-time weather updates using the Open-Meteo API. The app allows users to search for a city's weather conditions, including temperature, precipitation, and wind speed, while displaying a dynamic video background based on weather conditions.
+**EN:**  
+HaloWeather is an interactive weather forecasting application that allows users to explore current and future weather data through a map interface. The app supports multilingual search (city/state/country), dynamic weather displays, and zoomable global navigation.
 
-**Türkçe:**  
-Hava Durumu Uygulaması, Open-Meteo API kullanarak gerçek zamanlı hava durumu güncellemeleri sağlayan React tabanlı bir uygulamadır. Kullanıcılar, bir şehrin hava durumu koşullarını (sıcaklık, yağış, rüzgar hızı gibi) arayabilir ve hava durumuna göre değişen dinamik bir video arka planıyla görüntüleyebilir.
-
----
-
-## Usage (Kullanım)
-
-**English:**  
-1. Open the app using this link:  
-   [Weather App Live Link](https://weatherapp-blond-two.vercel.app/)  
-2. Search for a city's weather using the search bar.  
-3. View weather details like temperature, precipitation, and wind speed.  
-4. Observe the dynamic background that changes according to the weather conditions.
-
-**Türkçe:**  
-1. Uygulamayı şu link üzerinden açın:  
-   [Hava Durumu Uygulaması](https://weatherapp-blond-two.vercel.app/)  
-2. Arama çubuğunu kullanarak bir şehrin hava durumunu arayın.  
-3. Sıcaklık, yağış ve rüzgar hızı gibi hava durumu detaylarını görüntüleyin.  
-4. Hava durumuna göre değişen dinamik arka planı gözlemleyin.
+**TR:**  
+HaloWeather, kullanıcıların dünya haritası üzerinden şehir/semt/seviye bazlı hava durumu verilerini görüntülemesini sağlayan, çok dilli destekli, modern bir hava durumu uygulamasıdır. Harita üzerinden şehir arayabilir, hava durumunu anlık olarak görebilir, yaklaşarak detaylara ulaşabilirsiniz.
 
 ---
 
-## Features (Özellikler)
+## 🚀 Features / Özellikler
 
-**English:**  
-- Real-time weather data updates using Open-Meteo API.  
-- Dynamic video backgrounds reflecting weather conditions.  
-- Search functionality to find weather details for any city.  
-- Fully responsive design optimized for mobile and desktop.  
-- Modern, user-friendly interface styled with TailwindCSS.
-
-**Türkçe:**  
-- Open-Meteo API kullanarak gerçek zamanlı hava durumu güncellemeleri.  
-- Hava durumunu yansıtan dinamik video arka planları.  
-- Herhangi bir şehrin hava durumu detaylarını bulmak için arama işlevi.  
-- Mobil ve masaüstü için optimize edilmiş tamamen duyarlı tasarım.  
-- TailwindCSS ile modern, kullanıcı dostu arayüz.
+✅ Real-time weather data (current, hourly, daily)  
+✅ Multilingual support (EN / TR)  
+✅ City + State + Country based search results  
+✅ Responsive design (Mobile/Desktop optimized)  
+✅ Dynamic red ping marker for selected location  
+✅ Hoverable country highlighting  
+✅ Soft zoom & pan transitions with animation  
+✅ TailwindCSS styled modern interface  
+✅ Weather charts and forecast with visual icons  
+✅ Smooth UI with dark/light mode support
 
 ---
 
-## Technologies Used (Kullanılan Teknolojiler)
+## 🔍 Usage / Kullanım
 
-**English:**  
-- **React:** Frontend library for building the user interface.  
-- **TailwindCSS:** Utility-first CSS framework for modern styling.  
-- **Open-Meteo API:** Provides real-time weather data.  
-- **Vite:** Development environment for faster builds.  
+1. **Open the App:**  
+   [🌐 Live Demo](https://haloweather.vercel.app)
 
-**Türkçe:**  
-- **React:** Kullanıcı arayüzü oluşturmak için frontend kütüphanesi.  
-- **TailwindCSS:** Modern stillendirme için utility-first CSS framework.  
-- **Open-Meteo API:** Gerçek zamanlı hava durumu verilerini sağlar.  
-- **Vite:** Daha hızlı geliştirme ortamı için.  
+2. **Search Locations:**  
+   Start typing 3+ characters to search for cities or regions.  
+   Results are shown with City, State, Country.
+
+3. **Explore on Map:**  
+   The map zooms and highlights selected locations with a red marker.  
+   Only states have weather markers. Cities are used for precision search.
+
+4. **Check Details:**  
+   View current weather, apparent temp, humidity, wind, UV, sunrise/sunset.
+
+5. **Chart Preview:**  
+   See 3-day forecast and temperature chart for selected location.
 
 ---
 
-## Contact (İletişim)
+## 🛠️ Technologies Used
 
-- **GitHub:** [Yusagca](https://github.com/Yusagca)  
+- **React** – SPA architecture
+- **TailwindCSS** – UI styling & animations
+- **Vite** – Lightning-fast build tool
+- **Open-Meteo API** – Real-time weather forecast provider
+- **React Simple Maps** – Interactive SVG-based map rendering
+- **i18next** – Multilingual localization system
+- **Recharts** – Weather data visualization (line charts)
+
+---
+
+## 📁 Project Structure
+
+```bash
+📦 src/
+├── App.jsx              # Main app logic and state
+├── components/
+│   └── MapChart.jsx     # Interactive map component
+├── i18n.js              # Language config
+├── locales/             # Translation JSON files
+├── assets/              # Icons, backgrounds, styles
+└── countries_states_cities.json  # World location data
+```
+
+---
+
+## 🧑‍💻 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server (host mode)
+npm run dev -- --host
+
+# Deploy to Vercel
+vercel --prod
+```
+
+---
+
+## 🌍 Localization & Search Logic
+
+- Every search result checks both original name and translated `country.translations[language]`
+- Cities inherit country translations + state names for complete location strings
+- Results are shown as: `Reykjavík, Capital, Iceland` or `İstanbul, Marmara, Türkiye` based on locale
+
+---
+
+## ⚙️ Environment Requirements
+
+- Node.js 18+
+- Vercel account (for deployment)
+- Modern browser for full visual support
+
+---
+
+## 🧑‍🎨 Author & Contact
+
+- **GitHub:** [Yusagca](https://github.com/Yusagca)
 - **Email:** hyagca@hotmail.com  
-- **LinkedIn:** [Halil Yuşa Ağca](https://www.linkedin.com/in/halil-yusa-a%C4%9Fca-26197b1b6/)  
+- **LinkedIn:** [Halil Yuşa Ağca](https://www.linkedin.com/in/halil-yusa-a%C4%9Fca-26197b1b6/)
 
-Enjoy the Weather App! (Hava Durumu Uygulamasının Tadını Çıkarın!) 🎉  
+---
+
+## 🎉 Live Demo
+
+[🔗 https://haloweather.vercel.app](https://haloweather.vercel.app)
+
+Happy weather tracking! ☀️🌧️❄️
